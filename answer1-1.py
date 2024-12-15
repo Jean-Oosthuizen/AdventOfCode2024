@@ -1,4 +1,4 @@
-f = open("input1-1.txt","r")
+f = open("input1.txt","r")
 arr1 = []
 arr2 = []
 for line in f:
