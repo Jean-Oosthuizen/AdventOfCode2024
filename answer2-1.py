@@ -5,6 +5,7 @@ for line in f:
 safeCount = 0
 
 for report in reports:
+  
   safe = True
   if(int(report[0]) < int(report[1])):
     ascending = True
@@ -23,6 +24,7 @@ for report in reports:
       elif(not ascending and level1 < level2):
         safe = False
   if(safe):
+    print(report)
     safeCount += 1
 
 print(safeCount)
