@@ -24,7 +24,6 @@ for report in reports:
       elif(not ascending and level1 < level2):
         safe = False
   if(safe):
-    print(report)
     safeCount += 1
 
 print(safeCount)
